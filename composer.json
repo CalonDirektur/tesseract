@@ -1,0 +1,22 @@
+{
+  "name": "myname/tesseract-ocr-app",
+  "description": "A PHP application using Tesseract OCR for text recognition",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Myname\\TesseractOcrApp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Afdhal",
+      "email": "afdhal.syahrullah@gmail.com"
+    }
+  ],
+  "require": {
+    "thiagoalessio/tesseract_ocr": "^2.13"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
